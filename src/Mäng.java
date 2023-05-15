@@ -429,7 +429,7 @@ public class Mäng {
         valik3.setVisible(false);
         valik4.setVisible(false);
 
-        ImageIcon võit = new ImageIcon("VÕIT.png");
+        ImageIcon võit = new ImageIcon("VOIT.png");
         Image kohandamiseks = võit.getImage();
         Image kohandatudPilt = kohandamiseks.getScaledInstance((int) (500), (int) (500), Image.SCALE_SMOOTH);
         pildiSilt.setIcon(new ImageIcon(kohandatudPilt));
